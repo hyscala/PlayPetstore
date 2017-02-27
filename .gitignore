@@ -16,3 +16,7 @@ dist
 /.project
 /RUNNING_PID
 /.settings
+play/public/javascripts/scalajsclient-fastopt.js
+play/public/javascripts/scalajsclient-fastopt.js.map
+play/public/javascripts/scalajsclient-test-fastopt.js
+play/public/javascripts/scalajsclient-test-fastopt.js.map
