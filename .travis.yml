@@ -1,9 +1,15 @@
 language: scala 
+
 scala:
    - 2.11.5
+
 env:
   - ACTIVATOR_PATH=./bin
+
 jdk:
     - oraclejdk8
+
+before_install: unset SBT_OPTS JVM_OPTS
+
 script: ${ACTIVATOR_PATH}/activator test
 
